@@ -1,0 +1,274 @@
+body{
+    text-align: center;
+    background: linear-gradient(#42275a, #734b6d);
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 950;
+    color: gray;
+}
+a:hover{
+    color: blueviolet;
+}
+.intro{
+    text-align: center;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* Style for task buttons */
+.task-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .task-button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Style for input form */
+  .input-form {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    margin: 10px auto;
+  }
+  
+  .input-form input[type="text"],
+  .input-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Additional styles for larger screens */
+  @media screen and (min-width: 768px) {
+    .task-button {
+      padding: 12px 24px;
+      font-size: 16px;
+    }
+  
+    .input-form {
+      padding: 20px;
+    }
+  
+    .input-form input[type="text"],
+    .input-form textarea {
+      padding: 12px;
+      font-size: 16px;
+    }
+  }
+
+  /* Style for shopping page */
+.shopping-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .shopping-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .shopping-item img {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  /* Style for shopping cart */
+  .shopping-cart {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .cart-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cart-item img {
+    max-width: 80px;
+    height: auto;
+  }
+  
+  .cart-summary {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Additional styles for larger screens */
+  @media screen and (min-width: 768px) {
+    .shopping-item {
+      padding: 20px;
+      margin: 15px;
+    }
+  
+    .shopping-item img {
+      max-width: 120px;
+    }
+  
+    .shopping-cart {
+      padding: 25px;
+    }
+  
+    .cart-item {
+      padding: 20px;
+      margin: 15px;
+    }
+  
+    .cart-item img {
+      max-width: 100px;
+    }
+  
+    .cart-summary {
+      padding: 20px;
+    }
+  }
+  .add-to-cart-button {
+    display: block;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-cart-button:hover {
+    background-color: #2980b9;
+  }  
+
+  .go-to-cart-button {
+    display: inline-block;
+    width: 120px; /* Set the desired width for the square button */
+    text-align: center;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 0; /* Adjust padding to center content vertically */
+    margin-top: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .go-to-cart-button:hover {
+    background-color: #2980b9;
+  }
+
+
+  /* Your existing styles */
+
+.contact-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact-form {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.contact-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.contact-form input[type="text"],
+.contact-form textarea {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.contact-form input[type="message"],
+.contact-form textarea {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  height: 100px;
+  
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  margin-bottom: 15px;
+
+  display: block;
+  width: 100%;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #2980b9;
+}
