@@ -13,8 +13,14 @@ const ShoppingCart = () => {
 
   return (
     <div>
+        <div className="fixed-navbar">
         <Link to='/'>HomePage</Link>
-      <h2>Shopping Cart</h2>
+        <Link to='/todo'>To-Do List</Link>
+        <Link to='/item'>Shopping Page</Link>
+        <Link to='/about'>About Page</Link>
+        <Link to='/contact'>Contact Page</Link>
+      </div>
+      <h2 className='intro'>Shopping Cart</h2>
       <ul>
         {cartItems.map(item => (
           <li key={item.id} className='cart-item'>

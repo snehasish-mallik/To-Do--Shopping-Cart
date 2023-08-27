@@ -26,9 +26,17 @@ const TodoList = () => {
 
   return (
     <div>
+        <div className="fixed-navbar">
         <Link to='/'>HomePage</Link>
-      <h2>To-Do List</h2>
+        <Link to='/todo'>To-Do List</Link>
+        <Link to='/item'>Shopping Page</Link>
+        <Link to='/about'>About Page</Link>
+        <Link to='/contact'>Contact Page</Link>
+      </div>
+      
+      
       <p className='intro'>
+      <h2>To-Do List</h2>
       Introducing our To-Do List Feature!
 
       Welcome to the efficiency hub of [Your Website Name]. Our To-Do List feature is designed to empower you with streamlined task 

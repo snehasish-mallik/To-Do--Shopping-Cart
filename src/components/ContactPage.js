@@ -34,9 +34,15 @@ const ContactPage = () => {
 
   return (
     <div className="contact-page">
-      <Link to='/'>HomePage</Link>
+      <div className="fixed-navbar">
+        <Link to='/'>HomePage</Link>
+        <Link to='/todo'>To-Do List</Link>
+        <Link to='/item'>Shopping Page</Link>
+        <Link to='/about'>About Page</Link>
+        <Link to='/contact'>Contact Page</Link>
+      </div>
 
-      <h2>Contact Us</h2>
+      <h2 className='intro'>Contact Us</h2>
       <form onSubmit={handleSubmit} className="contact-form"> 
         <div>
           <label>Name:</label>

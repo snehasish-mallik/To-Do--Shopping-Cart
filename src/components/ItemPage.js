@@ -7,8 +7,14 @@ import "../index.css"
 const ItemsPage = () => {
   return (
     <div>
-      <Link to='/'>HomePage</Link>
-      <h2>Items Page</h2>
+      <div className="fixed-navbar">
+        <Link to='/'>HomePage</Link>
+        <Link to='/todo'>To-Do List</Link>
+        <Link to='/item'>Shopping Page</Link>
+        <Link to='/about'>About Page</Link>
+        <Link to='/contact'>Contact Page</Link>
+      </div>
+      <h2 className='intro'>Items Page</h2>
       <ItemList />
       <Link to="/cart" className='go-to-cart-button'>Go to Cart</Link>
     </div>

@@ -27,6 +27,7 @@ a:hover{
     justify-content: center;
     margin-left: 100px;
     margin-right: 100px;
+    margin-top: 100px;
 }
 
 /* Style for task buttons */
@@ -271,4 +272,39 @@ a:hover{
 
 .contact-form button:hover {
   background-color: #2980b9;
+}
+
+
+/* Your existing styles */
+
+/* Style for the fixed navbar */
+.fixed-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.fixed-navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.fixed-navbar a:hover {
+  background-color: #555;
+}
+
+/* Additional styles for larger screens */
+@media screen and (min-width: 768px) {
+  .fixed-navbar {
+    padding: 10px 20px;
+  }
 }
