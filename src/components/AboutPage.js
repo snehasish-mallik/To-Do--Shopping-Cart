@@ -21,6 +21,8 @@ const AboutPage = () => {
             At To-Do-Shoppping-Cart, we're committed to providing you with a seamless online experience that simplifies your daily 
             tasks and enhances your shopping journey. Our platform is designed to cater to your needs, whether you're looking to 
             manage your tasks efficiently or explore a wide range of products.
+            <br></br>
+            Created by Snehasish Mallik for the task given my Ambula for the role of UI Developer. 
          </p>
     </div>
   );
